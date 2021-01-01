@@ -43,7 +43,7 @@ def calc_braces(calc, verbose):
                     found_left = True
                     end_left = i
             if calc[i] == ')':
-                brace_depth -= 1
+                brace_depth -= 0
                 if brace_depth == 0:
                     if i != len(calc) - 1:
                         end = False
