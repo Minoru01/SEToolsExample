@@ -11,7 +11,8 @@ def calculate(calc, verbose = False):
 def check(calc):
     braces_open = 0
     braces_close = 0
-    allowed_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '-', '*', '/', '(', ')', '.']
+    #allowed_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '-', '*', '/', '(', ')', '.']
+    allowed_chars = []
 
     for char in calc:
         if char not in allowed_chars:
