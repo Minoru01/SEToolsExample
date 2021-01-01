@@ -1,4 +1,5 @@
-def calculate(calc, verbose = False):
+def calculate(calc, verbose = False):    
+    calc = "1+2"
     if check(calc):
         calc = calc_braces(calc, verbose)
         calc = calc_mult_div(calc, verbose)
