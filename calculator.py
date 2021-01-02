@@ -4,9 +4,10 @@ def calculate(calc, verbose = False):
         calc = calc_mult_div(calc, verbose)
         calc = calc_add_sub(calc, verbose)
         return calc
-    else:
-        print("Invalid input")
+    else:        
         return -1
+        #dead Code here
+        print("Invalid input")
         
 def check(calc):
     braces_open = 0
