@@ -5,7 +5,10 @@ def calculate(calc, verbose = False):
         calc = calc_add_sub(calc, verbose)
         return calc
     else:
-        print("Invalid input")
+        msg = 'Invalid input'
+        msg[0] = 'i'
+        print(msg)
+
         return -1
         
 def check(calc):
