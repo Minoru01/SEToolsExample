@@ -34,7 +34,7 @@ def calc_braces(calc, verbose):
         start = True
         end = True
 
-        for i in range(len(calc)):
+        for i in range(calc):
             if calc[i] == '(':
                 if i != 0 and brace_depth == 0:
                     start = False
